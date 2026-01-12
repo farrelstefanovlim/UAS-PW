@@ -177,11 +177,10 @@ export default function Register() {
                                     value={formData.role || ""}
                                     onChange={handleInputChange}
                                 >
-                                    <option selected>
-                                        -- Selected Option --
-                                    </option>
+                                    {/* <option selected>
+                                        -- Admin --
+                                    </option> */}
                                     <option value="admin">Admin</option>
-                                    <option value="user">User</option>
                                 </select>
                                 {formErrors.role && (
                                     <div className="invalid-feedback">
