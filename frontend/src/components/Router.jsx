@@ -72,7 +72,7 @@ export default function Router() {
                 }
             />
             <Route
-                path="/report-opening-balance-items"
+                path="/opening-balance-items"
                 element={
                     <MainLayout>
                         <OpeningBalanceItems />
@@ -80,7 +80,7 @@ export default function Router() {
                 }
             />
             <Route
-                path="/report-stock-in"
+                path="/stock-in"
                 element={
                     <MainLayout>
                         <StockIn />
@@ -88,7 +88,7 @@ export default function Router() {
                 }
             />
             <Route
-                path="/report-stock-out"
+                path="/stock-out"
                 element={
                     <MainLayout>
                         <StockOut />
@@ -96,7 +96,7 @@ export default function Router() {
                 }
             />
             <Route
-                path="/report-stock-opname"
+                path="/stock-opname"
                 element={
                     <MainLayout>
                         <StockOpname />
